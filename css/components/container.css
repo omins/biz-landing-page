@@ -8,12 +8,12 @@
 
 .container:first-child {
   margin-top: 80px;
-  background-image: url("/image/prague_2.jpg");
+  background-image: url("https://omins.github.io/biz-landing-page/image/prague_2.jpg");
   justify-content: left;
 }
 
 .container:nth-child(2) {
-  background-image: url("/image/prague.jpg");
+  background-image: url("https://omins.github.io/biz-landing-page/image/prague.jpg");
   justify-content: flex-end;
 }
 

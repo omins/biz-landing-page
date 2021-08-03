@@ -1,0 +1,18 @@
+.nav-lists {
+  display: flex;
+}
+.nav-lists li {
+  display: inline-block;
+  align-items: baseline;
+  margin: 0px 30px;
+  font-weight: 500;
+}
+
+.nav-lists a {
+  color: black;
+}
+
+.nav-lists a:hover {
+  color: rgb(51, 94, 167);
+  cursor: pointer;
+}

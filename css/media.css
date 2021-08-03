@@ -1,0 +1,31 @@
+@media screen and (max-width: 1460px) {
+  .main-footer__column__text,
+  .main-footer__column__link {
+    margin: 0px 50px;
+  }
+}
+
+@media screen and (max-width: 1229px) {
+  .container__column {
+    margin: 0px 100px;
+  }
+}
+
+@media screen and (max-width: 829px) {
+  .container__title {
+    font-size: 70px;
+  }
+  .container__text {
+    font-size: 25px;
+  }
+  .main-footer__column__text,
+  .main-footer__column__link {
+    margin: 0px 50px;
+  }
+}
+
+@media screen and (max-width: 532px) {
+  .container__text {
+    font-size: 15px;
+  }
+}

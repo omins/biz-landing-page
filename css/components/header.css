@@ -1,0 +1,23 @@
+.main-header {
+  height: 80px;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.header-container__title a {
+  color: black;
+}
+
+.header-container__title,
+.header-container__nav {
+  margin-top: 20px;
+  padding: 0px 25px;
+}

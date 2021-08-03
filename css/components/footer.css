@@ -1,0 +1,26 @@
+.main-footer {
+  height: 300px;
+  background-color: #aeb5bb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+
+.main-footer__column__text,
+.main-footer__column__link {
+  margin: 0px 200px;
+}
+
+.main-footer__column__text {
+  color: white;
+  font-weight: 200;
+}
+
+.main-footer__column__link {
+  height: 76px;
+}
+
+.main-footer__column__link a {
+  color: white;
+}

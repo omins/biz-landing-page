@@ -1,0 +1,42 @@
+.container {
+  height: 700px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+}
+
+.container:first-child {
+  margin-top: 80px;
+  background-image: url("/image/prague_2.jpg");
+  justify-content: left;
+}
+
+.container:nth-child(2) {
+  background-image: url("/image/prague.jpg");
+  justify-content: flex-end;
+}
+
+.container__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 300px;
+}
+
+.container__title {
+  margin-bottom: 50px;
+  font-size: 80px;
+  color: white;
+  opacity: 0.8;
+}
+
+.container__text {
+  font-size: 50px;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  font-weight: 500;
+}
